@@ -1,0 +1,5 @@
+/home/mandike/CLionProjects/RipperCurse/cmake-build-debug/CMakeFiles/RipperCurse.dir
+/home/mandike/CLionProjects/RipperCurse/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mandike/CLionProjects/RipperCurse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mandike/CLionProjects/RipperCurse/cmake-build-debug/CMakeFiles/RipperCurse_autogen_timestamp_deps.dir
+/home/mandike/CLionProjects/RipperCurse/cmake-build-debug/CMakeFiles/RipperCurse_autogen.dir
