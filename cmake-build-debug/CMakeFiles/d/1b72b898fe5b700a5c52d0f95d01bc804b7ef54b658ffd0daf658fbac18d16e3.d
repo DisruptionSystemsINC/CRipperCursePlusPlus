@@ -1,5 +1,7 @@
 RipperCurse_autogen/timestamp: \
   /home/mandike/CLionProjects/RipperCurse/CMakeLists.txt \
+  /home/mandike/CLionProjects/RipperCurse/JsonManip.cpp \
+  /home/mandike/CLionProjects/RipperCurse/JsonManip.h \
   /home/mandike/CLionProjects/RipperCurse/Window.cpp \
   /home/mandike/CLionProjects/RipperCurse/Window.h \
   CMakeFiles/3.27.9/CMakeCCompiler.cmake \
@@ -73,6 +75,7 @@ RipperCurse_autogen/timestamp: \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/c++/13.2.1/algorithm \
+  /usr/include/c++/13.2.1/any \
   /usr/include/c++/13.2.1/array \
   /usr/include/c++/13.2.1/atomic \
   /usr/include/c++/13.2.1/backward/auto_ptr.h \
@@ -93,6 +96,7 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/bits/c++0x_warning.h \
   /usr/include/c++/13.2.1/bits/char_traits.h \
   /usr/include/c++/13.2.1/bits/charconv.h \
+  /usr/include/c++/13.2.1/bits/codecvt.h \
   /usr/include/c++/13.2.1/bits/concept_check.h \
   /usr/include/c++/13.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/13.2.1/bits/cxxabi_forced.h \
@@ -104,7 +108,10 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/bits/exception_ptr.h \
   /usr/include/c++/13.2.1/bits/functexcept.h \
   /usr/include/c++/13.2.1/bits/functional_hash.h \
+  /usr/include/c++/13.2.1/bits/gslice.h \
+  /usr/include/c++/13.2.1/bits/gslice_array.h \
   /usr/include/c++/13.2.1/bits/hash_bytes.h \
+  /usr/include/c++/13.2.1/bits/indirect_array.h \
   /usr/include/c++/13.2.1/bits/invoke.h \
   /usr/include/c++/13.2.1/bits/ios_base.h \
   /usr/include/c++/13.2.1/bits/istream.tcc \
@@ -112,9 +119,13 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/bits/list.tcc \
   /usr/include/c++/13.2.1/bits/locale_classes.h \
   /usr/include/c++/13.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/13.2.1/bits/locale_conv.h \
   /usr/include/c++/13.2.1/bits/locale_facets.h \
   /usr/include/c++/13.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/13.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13.2.1/bits/localefwd.h \
+  /usr/include/c++/13.2.1/bits/mask_array.h \
   /usr/include/c++/13.2.1/bits/max_size_type.h \
   /usr/include/c++/13.2.1/bits/memory_resource.h \
   /usr/include/c++/13.2.1/bits/memoryfwd.h \
@@ -126,9 +137,11 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/bits/node_handle.h \
   /usr/include/c++/13.2.1/bits/ostream.tcc \
   /usr/include/c++/13.2.1/bits/ostream_insert.h \
+  /usr/include/c++/13.2.1/bits/parse_numbers.h \
   /usr/include/c++/13.2.1/bits/postypes.h \
   /usr/include/c++/13.2.1/bits/predefined_ops.h \
   /usr/include/c++/13.2.1/bits/ptr_traits.h \
+  /usr/include/c++/13.2.1/bits/quoted_string.h \
   /usr/include/c++/13.2.1/bits/range_access.h \
   /usr/include/c++/13.2.1/bits/ranges_algo.h \
   /usr/include/c++/13.2.1/bits/ranges_algobase.h \
@@ -141,6 +154,8 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/bits/shared_ptr.h \
   /usr/include/c++/13.2.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/13.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/13.2.1/bits/slice_array.h \
+  /usr/include/c++/13.2.1/bits/specfun.h \
   /usr/include/c++/13.2.1/bits/std_abs.h \
   /usr/include/c++/13.2.1/bits/std_function.h \
   /usr/include/c++/13.2.1/bits/std_mutex.h \
@@ -174,15 +189,25 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/bits/uses_allocator.h \
   /usr/include/c++/13.2.1/bits/uses_allocator_args.h \
   /usr/include/c++/13.2.1/bits/utility.h \
+  /usr/include/c++/13.2.1/bits/valarray_after.h \
+  /usr/include/c++/13.2.1/bits/valarray_array.h \
+  /usr/include/c++/13.2.1/bits/valarray_array.tcc \
+  /usr/include/c++/13.2.1/bits/valarray_before.h \
   /usr/include/c++/13.2.1/bits/vector.tcc \
+  /usr/include/c++/13.2.1/cassert \
   /usr/include/c++/13.2.1/cctype \
   /usr/include/c++/13.2.1/cerrno \
   /usr/include/c++/13.2.1/climits \
   /usr/include/c++/13.2.1/clocale \
+  /usr/include/c++/13.2.1/cmath \
   /usr/include/c++/13.2.1/compare \
   /usr/include/c++/13.2.1/concepts \
   /usr/include/c++/13.2.1/cstddef \
+  /usr/include/c++/13.2.1/cstdint \
+  /usr/include/c++/13.2.1/cstdio \
   /usr/include/c++/13.2.1/cstdlib \
+  /usr/include/c++/13.2.1/cstring \
+  /usr/include/c++/13.2.1/ctime \
   /usr/include/c++/13.2.1/cwchar \
   /usr/include/c++/13.2.1/cwctype \
   /usr/include/c++/13.2.1/debug/assertions.h \
@@ -195,8 +220,11 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/ext/numeric_traits.h \
   /usr/include/c++/13.2.1/ext/string_conversions.h \
   /usr/include/c++/13.2.1/ext/type_traits.h \
+  /usr/include/c++/13.2.1/forward_list \
   /usr/include/c++/13.2.1/functional \
+  /usr/include/c++/13.2.1/future \
   /usr/include/c++/13.2.1/initializer_list \
+  /usr/include/c++/13.2.1/iomanip \
   /usr/include/c++/13.2.1/ios \
   /usr/include/c++/13.2.1/iosfwd \
   /usr/include/c++/13.2.1/iostream \
@@ -204,6 +232,7 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/iterator \
   /usr/include/c++/13.2.1/limits \
   /usr/include/c++/13.2.1/list \
+  /usr/include/c++/13.2.1/locale \
   /usr/include/c++/13.2.1/map \
   /usr/include/c++/13.2.1/memory \
   /usr/include/c++/13.2.1/new \
@@ -215,16 +244,33 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/13.2.1/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13.2.1/ranges \
+  /usr/include/c++/13.2.1/span \
   /usr/include/c++/13.2.1/stdexcept \
   /usr/include/c++/13.2.1/stdlib.h \
   /usr/include/c++/13.2.1/streambuf \
   /usr/include/c++/13.2.1/string \
   /usr/include/c++/13.2.1/string_view \
+  /usr/include/c++/13.2.1/thread \
+  /usr/include/c++/13.2.1/tr1/bessel_function.tcc \
+  /usr/include/c++/13.2.1/tr1/beta_function.tcc \
+  /usr/include/c++/13.2.1/tr1/ell_integral.tcc \
+  /usr/include/c++/13.2.1/tr1/exp_integral.tcc \
+  /usr/include/c++/13.2.1/tr1/gamma.tcc \
+  /usr/include/c++/13.2.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/13.2.1/tr1/legendre_function.tcc \
+  /usr/include/c++/13.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13.2.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/13.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13.2.1/tr1/special_function_util.h \
   /usr/include/c++/13.2.1/tuple \
   /usr/include/c++/13.2.1/type_traits \
   /usr/include/c++/13.2.1/typeinfo \
   /usr/include/c++/13.2.1/unordered_map \
   /usr/include/c++/13.2.1/utility \
+  /usr/include/c++/13.2.1/valarray \
+  /usr/include/c++/13.2.1/variant \
   /usr/include/c++/13.2.1/vector \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -235,16 +281,65 @@ RipperCurse_autogen/timestamp: \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
+  /usr/include/nlohmann/adl_serializer.hpp \
+  /usr/include/nlohmann/byte_container_with_subtype.hpp \
+  /usr/include/nlohmann/detail/abi_macros.hpp \
+  /usr/include/nlohmann/detail/conversions/from_json.hpp \
+  /usr/include/nlohmann/detail/conversions/to_chars.hpp \
+  /usr/include/nlohmann/detail/conversions/to_json.hpp \
+  /usr/include/nlohmann/detail/exceptions.hpp \
+  /usr/include/nlohmann/detail/hash.hpp \
+  /usr/include/nlohmann/detail/input/binary_reader.hpp \
+  /usr/include/nlohmann/detail/input/input_adapters.hpp \
+  /usr/include/nlohmann/detail/input/json_sax.hpp \
+  /usr/include/nlohmann/detail/input/lexer.hpp \
+  /usr/include/nlohmann/detail/input/parser.hpp \
+  /usr/include/nlohmann/detail/input/position_t.hpp \
+  /usr/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /usr/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /usr/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /usr/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /usr/include/nlohmann/detail/json_pointer.hpp \
+  /usr/include/nlohmann/detail/json_ref.hpp \
+  /usr/include/nlohmann/detail/macro_scope.hpp \
+  /usr/include/nlohmann/detail/macro_unscope.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /usr/include/nlohmann/detail/meta/call_std/end.hpp \
+  /usr/include/nlohmann/detail/meta/cpp_future.hpp \
+  /usr/include/nlohmann/detail/meta/detected.hpp \
+  /usr/include/nlohmann/detail/meta/identity_tag.hpp \
+  /usr/include/nlohmann/detail/meta/is_sax.hpp \
+  /usr/include/nlohmann/detail/meta/std_fs.hpp \
+  /usr/include/nlohmann/detail/meta/type_traits.hpp \
+  /usr/include/nlohmann/detail/meta/void_t.hpp \
+  /usr/include/nlohmann/detail/output/binary_writer.hpp \
+  /usr/include/nlohmann/detail/output/output_adapters.hpp \
+  /usr/include/nlohmann/detail/output/serializer.hpp \
+  /usr/include/nlohmann/detail/string_concat.hpp \
+  /usr/include/nlohmann/detail/string_escape.hpp \
+  /usr/include/nlohmann/detail/value_t.hpp \
+  /usr/include/nlohmann/json.hpp \
+  /usr/include/nlohmann/json_fwd.hpp \
+  /usr/include/nlohmann/ordered_map.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /usr/include/pthread.h \
+  /usr/include/qt/QtCore/QObject \
+  /usr/include/qt/QtCore/QThread \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -259,7 +354,9 @@ RipperCurse_autogen/timestamp: \
   /usr/include/qt/QtCore/qcontainertools_impl.h \
   /usr/include/qt/QtCore/qcoreevent.h \
   /usr/include/qt/QtCore/qdatastream.h \
+  /usr/include/qt/QtCore/qdeadlinetimer.h \
   /usr/include/qt/QtCore/qdir.h \
+  /usr/include/qt/QtCore/qelapsedtimer.h \
   /usr/include/qt/QtCore/qfile.h \
   /usr/include/qt/QtCore/qfiledevice.h \
   /usr/include/qt/QtCore/qfileinfo.h \
@@ -304,6 +401,7 @@ RipperCurse_autogen/timestamp: \
   /usr/include/qt/QtCore/qsysinfo.h \
   /usr/include/qt/QtCore/qsystemdetection.h \
   /usr/include/qt/QtCore/qtcore-config.h \
+  /usr/include/qt/QtCore/qthread.h \
   /usr/include/qt/QtCore/qtypeinfo.h \
   /usr/include/qt/QtCore/qurl.h \
   /usr/include/qt/QtCore/qvariant.h \
@@ -445,9 +543,14 @@ RipperCurse_autogen/timestamp: \
   /usr/share/cmake/Modules/Compiler/GNU-C.cmake \
   /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
   /usr/share/cmake/Modules/Compiler/GNU.cmake \
+  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /usr/share/cmake/Modules/FindPackageMessage.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
   /usr/share/cmake/Modules/Platform/Linux.cmake \
-  /usr/share/cmake/Modules/Platform/UnixPaths.cmake
+  /usr/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake \
+  /usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake \
+  /usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake

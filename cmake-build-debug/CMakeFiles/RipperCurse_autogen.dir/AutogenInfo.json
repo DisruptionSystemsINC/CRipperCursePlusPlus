@@ -32,6 +32,11 @@
 		"/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake",
 		"/usr/share/cmake/Modules/Platform/Linux-GNU.cmake",
 		"/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake",
+		"/usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake",
 		"/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -99,6 +104,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/mandike/CLionProjects/RipperCurse/JsonManip.h",
+			"MU",
+			"EWIEGA46WW/moc_JsonManip.cpp",
+			null
+		],
+		[
 			"/home/mandike/CLionProjects/RipperCurse/Window.h",
 			"MU",
 			"EWIEGA46WW/moc_Window.cpp",
@@ -155,6 +166,7 @@
 	"SETTINGS_FILE" : "/home/mandike/CLionProjects/RipperCurse/cmake-build-debug/CMakeFiles/RipperCurse_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/mandike/CLionProjects/RipperCurse/JsonManip.cpp", "MU", null ],
 		[ "/home/mandike/CLionProjects/RipperCurse/Window.cpp", "MU", null ],
 		[ "/home/mandike/CLionProjects/RipperCurse/main.cpp", "MU", null ]
 	],
